@@ -83,7 +83,7 @@ void serialEvent(){
     int new_sampling_time = command.substring(4).toInt(); // The format should be "SETS XXX" where XXX is the new sampling time
 
     // Check if the new sampling time is at least 250 ms
-    if (new_sampling_time >= 250) {
+    if (new_sampling_time >= 240) {
       sampling_time = new_sampling_time; // Update sampling time
       Serial.println("SSOK"); // Set Sampling time OK.
     } else {
@@ -125,5 +125,5 @@ void serialEvent(){
 }
 
 void update_analysis_max_counter (){
-  analysis_max_counter =  int( analysis_time / sampling_time);
+  analysis_max_counter =  ceil( analysis_time / sampling_time);
 }

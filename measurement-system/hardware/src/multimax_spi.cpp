@@ -91,7 +91,7 @@ void MMAX6675::clear_queue() {
 
 // Method to resizes the dataQueue to a new size
 bool MMAX6675::resize_queue(unsigned int maxItems) {
-    if (maxItems > dataQueue.itemCount() & maxItems <= 40) {
+    if (maxItems >= dataQueue.itemCount() & maxItems <= 40) {
         // Create a temporary queue with the new size
         aux_dataQueue = new ArduinoQueue<measure>(dataQueue.itemCount());
 

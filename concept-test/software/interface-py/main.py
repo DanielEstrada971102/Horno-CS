@@ -132,6 +132,7 @@ class Interfaz(Ui_MainWindow):
     def baudSelection(self):
         self.show_status_message("")
         selectItem = self.baud_comboBox.currentText()
+        print(type(selectItem))
         self.serial_port.baudrate = selectItem
         self.show_status_message("Baud rate establecida: " + selectItem)
 
