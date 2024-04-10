@@ -1,0 +1,15 @@
+{
+    "user_name": "None",
+    "user_email": "None",
+    "user_role": "None",
+    "COM_index": 2,
+    "baud_index": 7,
+    "databits_index": 3,
+    "sampling_rate": 240,
+    "plotting_rate": 50,
+    "analysis_time": 10000,
+    "buffer_size": 30,
+    "initial_data_size": 10,
+    "files_prefix": "result",
+    "out_path": "."
+}
