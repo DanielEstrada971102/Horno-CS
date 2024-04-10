@@ -10,7 +10,7 @@ Este proyecto esta encaminado a el diseño y construcción de un horno de secado
 >
 > Si eres desarrollador, para tratar de preservar la integridad del repositorio y evitar fallos, por favor seguir las pautas para publicar aportaciones, las cuales se indican en el apartado ["CONTRIBUTING"][contributors]. Si encuentra algún problema dentro del proyecto puede reportarlo abriendo un "issue" de acuerdo con los lineamientos del mismo apartado.
 
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![Licencia: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 [contributors]: CONTRIBUTING.mb
